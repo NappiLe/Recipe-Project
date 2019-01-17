@@ -23,7 +23,7 @@ node server
 ```
 *If you get an error, make sure you do not have another server listening to port 3100*
 
-Open a browser and access the following URLs:
+Open a browser and access the following URL:
 ```
 https://localhost:3100/
 ```
