@@ -8,16 +8,26 @@ Recipe websites nowadays seem to have very 'messy' design by cramming too much i
 
 Searching recipe by typing name or ingredients. It will show suggested recipes through pictures. By clicking to title, all instructions for the recipe will be displayed.
 
-I was planning to create the wish list for users so that users can store their favorite recipes in their own account. Due to the access limitation to the API database, I could not make the wish list work.
+I was planning to create the wish list for users so that users can store their favorite recipes in their own account. Due to the limitations of access to the API database, I could not make the wish list work.
 ## Installation & Set up guide
 Clone the repo and install the dependencies
 ```
-git clone https://github.com/node-projects/recipeProject.git
-cd recipeProject
+git clone https://github.com/NappiLe/Recipe-Project.git
 ```
 ```
 npm install
 ```
+Start the server
+```
+node server
+```
+*If you get an error, make sure you do not have another server listening to port 3100*
+
+Open a browser and access the following URLs:
+```
+https://localhost:3100/
+```
+
 ## API reference
 This webapp using [Food2Fork](https://www.food2fork.com/about/api) API. Due the development and  educational purpose, it is only free to make 50 API calls per day to access the data. For exceed 50-call, it requires a paid subcription plan.
 ## Credits
